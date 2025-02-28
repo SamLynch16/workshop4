@@ -1,13 +1,7 @@
-// For testing puroposes, you may need to change these places to something closer to you
-const places = [
-    { name: "The Marshall Rochester", latitude: 43.0635, longitude: 77.6584 },
-    { name: "Charge Point", latitude: 43.06444454331844, longitude: -77.6844609744161 },
-];
-
 const fetchPlacesFromOSM = async (latitude, longitude) => {
     // For testing puroposes, you may need to increase the radius and/or change the API query
     // For example, you can try "amenity"="cafe"
-    const radius = 1000; // radius in meters
+    const radius = 10000; // radius in meters
     const query = `
         [out:json];
         node["historic"="monument"](around:${radius},${latitude},${longitude});
