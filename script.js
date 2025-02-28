@@ -1,7 +1,7 @@
 // For testing puroposes, you may need to change these places to something closer to you
 const places = [
     { name: "The Marshall Rochester", latitude: 43.0635, longitude: 77.6584 },
-    { name: "Charge Point", latitude: 43.064021, longitude: -77.685189 },
+    { name: "Charge Point", latitude: 43.06444454331844, longitude: -77.6844609744161 },
 ];
 
 const loadPlaces = () => {
